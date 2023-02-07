@@ -1,0 +1,306 @@
+/* This sets the deepest background color */
+body {
+  background-image: url(imgGreen.jpg);
+}
+
+/* <!-- This creates the heading at the top of the page
+    including our Authors pic & bkgrnd image--> */
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(imgCurvedShelf.jpg);
+  padding: 10px;
+  color: darkblue;
+}
+
+/* This styles our names at the top in the header */
+#head1 {
+  background-color: bisque;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This styles the words 'Landing Page' in the header */
+#head2 {
+  background-color: bisque;
+  border-radius: 40px;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This styles our image in the header*/
+.PamJim {
+  border-color: black;
+  border-width: 20px;
+  border-style: double;
+  border-radius: 50px;
+}
+
+/* This styles the note just below the header */
+.FeelFree {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  color: green;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: bisque;
+  width: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*This styles the overall Navigation bar*/
+.navbar ul {
+  background-color: bisque;
+  list-style-type: none;
+  text-align: center;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  height: 30px;
+  width: 1000px;
+  margin: 10px;
+  padding: 5px;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#whereYouAre {
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 20px;
+  width: 500px;
+  background-color: chartreuse;
+}
+#wYA {
+  color: black;
+  font-weight: bolder;
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+
+/*This takes the list and displays it end for end on the navigation bar */
+.navbar ul li {
+  display: inline;
+}
+
+/*This styles the buttons on the navigation bar  */
+.navbar ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: 0.2em 1em;
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*This one sets when you roll over
+  it, it reverses the colors  */
+.navbar ul li a:hover {
+  color: #000;
+  background-color: white;
+}
+
+/* This sets the style on every book block  */
+.main {
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 40px;
+  margin: 10px;
+  margin-top: 40px;
+  padding: 30px;
+  background-image: url(imgBooksScattered.jpg);
+}
+
+/* This styles the 'price list & info' box  */
+.pad1 {
+  padding: 5px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 5px;
+  width: 550px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 75px;
+  background-image: url(imgStackBooks.jpg);
+}
+
+/* this styles the body of the descriptions in the pad class block*/
+.bod {
+  text-align: left;
+  color: greenyellow;
+  font-weight: bolder;
+  margin: 0px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+/* This is to style the pad class block*/
+.b1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* This is to style the note below the cover image*/
+.clickCover {
+  background-image: url(imgGreen.jpg);
+  color: black;
+  padding: 0px;
+  text-align: center;
+  font-weight: bolder;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 40px;
+  width: 194px;
+}
+
+/* This is to style the text in .clickStore class */
+.p1 {
+  color: black;
+  font-size: 20px;
+  padding: 3px 18px 3px 6px;
+  margin: 0px;
+}
+
+/*This is to style the box beneath the store link box*/
+.clickStore {
+  background-image: url(imgGreen.jpg);
+  color: black;
+  padding: 0px;
+  margin-top: 3px;
+  text-align: right;
+  font-weight: bolder;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 40px;
+  float: right;
+  width: 300px;
+}
+
+/* This is to style (in pad1) the fanning book image link to the author page */
+.GoToPage:hover {
+  opacity: 0.8;
+}
+
+/* This is to style the store links box*/
+.pad {
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url(imgBlue.jpg);
+  float: right;
+}
+
+/* This is to style the book link box on the right side*/
+.bookImages {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* This styles the main area of the footer */
+.footer {
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: bisque;
+  text-align: center;
+}
+
+/* This is to style the first line in the footer */
+.footP1 {
+  color: #006;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding: 0px;
+}
+
+/* This is to style the second line in the footer */
+.footP2 {
+  color: #006;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+/* This will target any links and perform
+    the hover */
+a:link {
+  color: #006;
+}
+
+a:visited {
+  color: darkorchid;
+}
+
+a:hover {
+  color: #f15a51;
+}
+
+/* The next block is used if you want your
+    program to fit any device.  If displayed on 
+    anything under 600 pixels it will execute the
+    code that is entered. */
+@media (max-width: 1000px) {
+  .pad1 {
+    display: none;
+  }
+}
+
+/* Same as above but 400 is normal for cellphones */
+@media (max-width: 500px) {
+  .pad {
+    display: none;
+  }
+}

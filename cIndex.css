@@ -1,0 +1,312 @@
+/* This sets the deepest background color */
+body {
+  background-color: aquamarine;
+}
+
+/* <!-- This creates the heading at the top of the page
+including our Authors pic & bkgrnd image--> */
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(deepBurgandy1275.jpg);
+  padding: 10px;
+  color: darkblue;
+}
+
+/* This styles our names at the top in the header */
+#head1 {
+  background-color: bisque;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This styles the words 'published authors in the header */
+#head2 {
+  background-color: bisque;
+  border-radius: 40px;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  /* width: 800px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This styles our image in the header*/
+#PamJim {
+  border-color: black;
+  border-width: 20px;
+  border-style: double;
+  border-radius: 50px;
+}
+
+/* This styles the note just below the header */
+#FeelFree {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  color: green;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: bisque;
+  width: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*The styles the overall Navigation bar*/
+.navbar ul {
+  background-color: bisque;
+  list-style-type: none;
+  text-align: center;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  height: 30px;
+  width: 1000px;
+  margin: 10px;
+  padding: 5px;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#whereYouAre {
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 20px;
+  width: 400px;
+  background-color: chartreuse;
+}
+#wYA {
+  color: black;
+  font-weight: bolder;
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+
+/*This takes the list and displays it end for end on the navigation bar */
+.navbar ul li {
+  display: inline;
+}
+
+/*This styles the buttons on the navigation bar  */
+.navbar ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: 0.2em 1em;
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*This one sets when you roll over
+  it, it reverses the colors  */
+.navbar ul li a:hover {
+  color: #000;
+  background-color: white;
+}
+
+/* This sets the style on every book block  */
+.main {
+  background-color: burlywood;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* This styles the 'want to read more?' box  */
+.pad1 {
+  float: right;
+  width: 350px;
+  text-align: center;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100px;
+  background-image: url(imgDarkBooks350X525.jpg);
+}
+
+/* This is to style the word 'interested?'*/
+.p1 {
+  color: greenyellow;
+  font-size: 35px;
+  padding: 2px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+/* This is to style the words'want to read more?'*/
+.p2 {
+  color: greenyellow;
+  font-size: 30px;
+  padding: 2px;
+  margin: 0px;
+}
+
+/* This is to style the 2 lines 'just click the pages - below'*/
+.p3 {
+  color: #fff;
+}
+
+/* This is to style the book names in the pad class block */
+.he1 {
+  color: aquamarine;
+  font-size: 25px;
+  padding: 2px;
+  margin: 0px;
+}
+
+/* This ist to style the author name in the pad class block */
+.he2 {
+  color: goldenrod;
+  font-size: 35px;
+  padding: 2px;
+  margin: 3px;
+}
+
+/* This is to style book descriptions in the pad class block*/
+.b1 {
+  color: greenyellow;
+}
+
+/* This is to style (in pad1) the fanning book image link to the author page */
+.GoToPage:hover {
+  opacity: 0.8;
+}
+
+/* This is to style the blocks of text about the books*/
+.pad {
+  padding: 10px;
+  margin-left: 10px;
+  width: 550px;
+  text-align: center;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url(imgClouds.jpg);
+}
+
+/* This is to style the book images on the right side*/
+.bookImages {
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  margin: 10px;
+  background-color: silver;
+  float: right;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* This is to style the images on the right of the page */
+.bookImages:hover {
+  opacity: 0.4;
+}
+
+/* I think that this is jut to ensure that if text 
+has not been defined this will ensure that i meets 
+thest values at the least...TBD ~~~~ not sure why this is here */
+p {
+  color: chartreuse;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/* This styles the main area of the footer */
+.footer {
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: bisque;
+  text-align: center;
+}
+
+/* This is to style the first line in the footer */
+.footP1 {
+  color: #006;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding: 0px;
+}
+
+/* This is to style the second line in the footer */
+.footP2 {
+  color: #006;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+/* This will target any links and perform
+the hover */
+a:link {
+  color: #006;
+}
+
+a:visited {
+  color: darkorchid;
+}
+
+a:hover {
+  color: #f15a51;
+}
+
+/* The next block is used if you want your
+program to fit any device.  If displayed on 
+anything under 600 pixels it will execute the
+code that is entered. */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/* Same as above but 400 is normal for 
+cellphones */
+@media (max-width: 400px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,278 @@
+/* This sets the deepest background color */
+body {
+  background-color: aquamarine;
+}
+
+/* <!-- This creates the heading at the top of the page
+including our Authors pic & bkgrnd image--> */
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(reading1_1200.jpg);
+  padding: 10px;
+  color: darkblue;
+}
+
+/* This styles our names at the top in the header */
+#head1 {
+  background-color: bisque;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This styles the words 'Author Page' in the header */
+#head2 {
+  background-color: bisque;
+  border-radius: 40px;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This styles our image in the header*/
+#Pam {
+  border-color: black;
+  border-width: 20px;
+  border-style: double;
+  border-radius: 50px;
+}
+
+/* This styles the note just below the header */
+#FeelFree {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  color: green;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: bisque;
+  width: 850px;
+}
+
+/*The styles the overall Navigation bar*/
+.navbar ul {
+  background-color: bisque;
+  list-style-type: none;
+  text-align: center;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 1000px;
+  margin: 10px;
+  padding: 5px;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#whereYouAre {
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 20px;
+  width: 400px;
+  background-color: chartreuse;
+}
+#wYA {
+  color: black;
+  font-weight: bolder;
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+
+/*This takes the list and displays it end for end on the navigation bar */
+.navbar ul li {
+  display: inline;
+}
+
+/*This styles the buttons on the navigation bar  */
+.navbar ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: 0.2em 1em;
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/*This one sets when you roll over
+  it, it reverses the colors  */
+.navbar ul li a:hover {
+  color: #000;
+  background-color: white;
+}
+
+/* This sets the style on every main block */
+.main {
+  background-color: burlywood;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* This styles the 'Pam's Background' & 'A Word from the Author' boxes  */
+.pad1 {
+  width: 700px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100px;
+  background-image: url(imgBookshelfRight.jpg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This is to style the word '...background' */
+.p1 {
+  color: greenyellow;
+  font-size: 35px;
+  padding: 2px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+/* This is to style the words'...from the Author' */
+.p2 {
+  color: greenyellow;
+  font-size: 30px;
+  padding: 2px;
+  margin: 0px;
+}
+
+/* This is to style book descriptions in the pad class block*/
+.b1 {
+  color: greenyellow;
+}
+
+.b2 {
+  color: darkblue;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* This is to style the blocks of text about the books*/
+.pad {
+  width: 100%;
+  text-align: left;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url(imgClouds1200X1800.jpg);
+  padding-left: 10px;
+}
+
+/* This styles the main area of the footer */
+.footer {
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: bisque;
+  text-align: center;
+}
+
+#foot {
+  padding: 4px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  background-color: aquamarine;
+  margin-bottom: 15px;
+}
+
+/* This is to style the first line in the footer */
+.footP1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: #006;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+/* This is to style the second line in the footer */
+.footP2 {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
+  color: black;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+/* This will target any links and perform
+the hover */
+a:link {
+  color: #006;
+}
+
+a:visited {
+  color: darkorchid;
+}
+
+a:hover {
+  color: #f15a51;
+}
+
+/* The next block is used if you want your
+program to fit any device.  If displayed on 
+anything under 600 pixels it will execute the
+code that is entered. */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/* Same as above but 400 is normal for 
+cellphones */
+@media (max-width: 400px) {
+  .sidebar {
+    display: none;
+  }
+}
