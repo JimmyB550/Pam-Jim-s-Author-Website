@@ -17,7 +17,7 @@
       Bad Karma, Urban Adventure, Adventures City, Out of Luck, Accident Prone, Romantic Fantasy, Romance No Sex, Apparitions, Memoirs, Family Memories,
       Fiction Medical, Next Disease, World Devastation, Sibling Lifestyles " />
 
-  <script></script>
+  <script src="jWebsiteAuthor.js"></script>
 
   <link rel="stylesheet" type="text/css" href="cContactUs.css" />
 
@@ -72,60 +72,6 @@ of the page -->
     <p class="p3"><strong>Just click an image at the bottom of the page</strong></p>
   </div>
 
-  <!-- <div class="topNote">
-      <p class="b1">We will reply to your message as soon as possible.<br> It just depends on the volume that we receive.</p>
-    </div>
-    <div class="topNote">
-      <p class="pTop">So, what would you like to talk about today?
-    </div>
-
-    <form id="theForm" action="message.html">
-      <div class="row">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="" required><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="" required><br><br>
-      <input type="submit" value="Submit">
-    </div>
-    </form>
-  <form id="theForm" action="message.html"  method="post" onSubmit="return validateTextbox1();"></form>
-        
-              This next line points to the function in js
-          <p> Please choose a topic from the pull-down list </p>
-<div class ="row">
-    <select id = "myList" onchange = "formTopicTop()" >  
-          <option> ---Choose Topic--- </option>  
-          <option> Hearts & Souls: Coming Into Focus </option>  
-          <option> Things That Should Have Killed Me: The Early Years </option>  
-          <option> Things That Should Have Killed Me: Into Adulthood </option>  
-          <option> Mother Knows: The Next Pandemic</option>  
-          <option> The Accidental Brotherhood </option>  
-          <option> Kimberly </option>  
-          <option> Jeffery </option>  
-          <option> Pam Bondy The Author  </option>  
-          <option> Jim Bondy The Author </option>  
-          <option> Other Topic </option>  
-    </select> 
-  </div>         
-                <br> <br>
-        <div class="row">
-          <label for="tName">Name:</label>
-          <input type="text" id="tName" name=""></br> </br>
-        </div>  
-  
-        <div class="row">
-          <label for="tEmail">Email:</label>
-          <input type="email" id="tEmail" name=""></br> </br>
-        </div>  
-
-      <div class="row">
-         <label for="tMessage">Message:</label>
-         <textarea id="tMessage" name="message" rows="4" cols="50"></textarea>
-         <br> <br> <br>
-      </div>
-        <input type="submit" value="Submit">
-  </form> 
-  <button onclick="changeColor()">Submit</button> -->
 
   <div class="pad">
     <a href=""></a>
@@ -140,7 +86,7 @@ of the page -->
     <br>
     <p class="bod">1) Click on the cover image at the bottom of the page. It will bring you to the stores.</p>
     <p class="bod">2) Click on the Amazon link and it will bring you to the price of the paperback in CAD</p>
-    <p class="bod">3) Take note of the cost of the book and close the Amazon page.</p>!
+    <p class="bod">3) Take note of the cost of the book and close the Amazon page.</p>
     <p class="bod">4) <span class="b3">Canada Only</span> Add $8.92 to the price of the paperback to cover S&H. If more
       than one copy is requested only add $4.95 to the price of each additional book, (AS LONG AS IT IS GOING TO THE
       SAME ADDRESS). TAXES ARE INCLUDED!</p>
@@ -163,7 +109,8 @@ of the page -->
   </div>
   </div>
 
-  <form id="theForm" action=message.html target="_blank" rel="noopener noreferrer" enctype="text/plain">
+  <!-- <form id="theForm" action=message.html target="_blank" rel="noopener noreferrer" enctype="text/plain"> -->
+  <form id="theForm" method= "post" action="form_to_email.php" target="_blank" rel="noopener noreferrer" enctype="text/plain">
     <p>All Fields Must Be Filled Out</p>
 
     <div class="row">
@@ -182,15 +129,16 @@ of the page -->
       </select>
     </div>
 
+    <!-- The required statement assures that a value is inserted in the form box
+         If it is missing an error will alert the user-->
     <br> <br>
     <div class="row">
       <label for="name">Name:</label>
       <input type="text" id="name" name="" required></br> </br>
     </div>
-
     <div class="row">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="" required></br> </br>
+      <label for="visitor_email">Email:</label>
+      <input type="email" id="visitor_email" name="" required></br> </br>
     </div>
 
     <div class="row">
